@@ -1,0 +1,13 @@
+#Create my input and string
+Species_1 = input("What is the species name of the bat?")
+
+print(Species_1.replace("Myotis austroriparius", "MYOAUS"))
+print(Species_1.replace("Myotis septentrionalis", "MYOSEP"))
+print(Species_1.replace("Eptesicus fuscus", "EPTFUC"))
+
+
+
+species_1.
+#1. INPUT THE SPECIES
+#2. PULL THE FIRST 3 LETTERS FROM EACH WORD AND CONCATENATE THEM TOGETHER
+#3. MAKE THE NEW CONCATENATED 6 LETTER WORD INTO ALL CAP

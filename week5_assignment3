@@ -1,0 +1,19 @@
+#import the bases
+import random
+bases = ["A","G","C","T"]
+
+#initialise empty string
+#this is where the bases will be added as they are generated
+random_sequence=''
+random_sequence += random.choice(bases)
+print(random_sequence)
+
+#Count the nucleotide bases
+count1 =random_sequence.count("G")
+count2 = random_sequence.count("C")
+count3 = random_sequence.count("A","C")
+
+#print the number of variables
+print("the number of G bases is ",count1)
+print("the number of G bases is ",count2)
+print("the number of G bases is ",count3)
